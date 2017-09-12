@@ -92,6 +92,7 @@
 		A36FD77C1DD5249600E6179F /* SCSStackedColumnSideBySideChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FD77B1DD5249600E6179F /* SCSStackedColumnSideBySideChartView.swift */; };
 		A36FD77E1DD524A600E6179F /* SCSStackedColumnChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FD77D1DD524A600E6179F /* SCSStackedColumnChartView.swift */; };
 		A3B3CC761D8B2DD5009096EE /* SCSImpulseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3CC751D8B2DD5009096EE /* SCSImpulseChartView.swift */; };
+		B890B1C932175EE074E21012 /* Pods_SciChartSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42237E6BC8C1D6093E866C5B /* Pods_SciChartSwiftDemo.framework */; };
 		FF0319841D3D057E005CD7F2 /* SCSDigitalLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0319831D3D057E005CD7F2 /* SCSDigitalLineChartView.swift */; };
 		FF0319861D3D0F41005CD7F2 /* SCSInterpolationTurnOnOff.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0319851D3D0F41005CD7F2 /* SCSInterpolationTurnOnOff.xib */; };
 		FF0319881D3D0F99005CD7F2 /* SCSInterpolationTurnOnOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0319871D3D0F99005CD7F2 /* SCSInterpolationTurnOnOff.swift */; };
@@ -133,6 +134,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		42237E6BC8C1D6093E866C5B /* Pods_SciChartSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SciChartSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8406F7DB1D22BCD2001E4D33 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		8413AFE01E0811BD00D4E3F0 /* SCSThemeProviderUsingChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSThemeProviderUsingChartView.swift; sourceTree = "<group>"; };
 		8413AFE21E0811D700D4E3F0 /* SCSThemeCustomChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSThemeCustomChartView.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		84FF5EB81D240B40005D398B /* SCSNxMSeriesSpeedTestSciChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSNxMSeriesSpeedTestSciChart.swift; sourceTree = "<group>"; };
 		84FF5EBA1D240B99005D398B /* SCSScatterSpeedTestSciChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSScatterSpeedTestSciChart.swift; sourceTree = "<group>"; };
 		84FF5EBC1D240BB2005D398B /* SCSSeriesAppendingTestSciChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSSeriesAppendingTestSciChart.swift; sourceTree = "<group>"; };
+		9FCCA8C6B3B644B899C94BDF /* Pods-SciChartSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartSwiftDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartSwiftDemo/Pods-SciChartSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A30B7AAA1E1AD5FD005B9765 /* SCSFPSCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSFPSCheck.swift; sourceTree = "<group>"; };
 		A32FBE761D6C524800E6BFF9 /* SCSLegendChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSLegendChartView.swift; sourceTree = "<group>"; };
 		A33F85E01D4173E000354306 /* EURUSD_Daily.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EURUSD_Daily.txt; path = ImportantFiles/EURUSD_Daily.txt; sourceTree = "<group>"; };
@@ -220,6 +223,7 @@
 		A36FD77B1DD5249600E6179F /* SCSStackedColumnSideBySideChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSStackedColumnSideBySideChartView.swift; sourceTree = "<group>"; };
 		A36FD77D1DD524A600E6179F /* SCSStackedColumnChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSStackedColumnChartView.swift; sourceTree = "<group>"; };
 		A3B3CC751D8B2DD5009096EE /* SCSImpulseChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSImpulseChartView.swift; sourceTree = "<group>"; };
+		A9B693DF65276E7A8D1F6AFD /* Pods-SciChartSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartSwiftDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartSwiftDemo/Pods-SciChartSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FF0319831D3D057E005CD7F2 /* SCSDigitalLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSDigitalLineChartView.swift; sourceTree = "<group>"; };
 		FF0319851D3D0F41005CD7F2 /* SCSInterpolationTurnOnOff.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCSInterpolationTurnOnOff.xib; sourceTree = "<group>"; };
 		FF0319871D3D0F99005CD7F2 /* SCSInterpolationTurnOnOff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSInterpolationTurnOnOff.swift; sourceTree = "<group>"; };
@@ -253,12 +257,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8406F7DC1D22BCD2001E4D33 /* OpenGLES.framework in Frameworks */,
+				B890B1C932175EE074E21012 /* Pods_SciChartSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BFC2466B4ADAC86886C4A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42237E6BC8C1D6093E866C5B /* Pods_SciChartSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		843F78111CFF297A00AD4F0E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,6 +342,8 @@
 				8406F7DB1D22BCD2001E4D33 /* OpenGLES.framework */,
 				84B6E79D1CFC4CDC0094B072 /* SciChartSwiftDemo */,
 				84B6E79C1CFC4CDC0094B072 /* Products */,
+				A0C5FA2B69E800C8FB61CDC7 /* Pods */,
+				4BFC2466B4ADAC86886C4A7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -431,6 +446,15 @@
 			path = ChartViews;
 			sourceTree = "<group>";
 		};
+		A0C5FA2B69E800C8FB61CDC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FCCA8C6B3B644B899C94BDF /* Pods-SciChartSwiftDemo.debug.xcconfig */,
+				A9B693DF65276E7A8D1F6AFD /* Pods-SciChartSwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF45D7F51EB791A000F84866 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,10 +490,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B6E7AD1CFC4CDC0094B072 /* Build configuration list for PBXNativeTarget "SciChartSwiftDemo" */;
 			buildPhases = (
+				94DCCF18F70894E76AD8A2A1 /* [CP] Check Pods Manifest.lock */,
 				84B6E7971CFC4CDC0094B072 /* Sources */,
 				84B6E7981CFC4CDC0094B072 /* Frameworks */,
 				84B6E7991CFC4CDC0094B072 /* Resources */,
 				8406F7E01D22BD2F001E4D33 /* Embed Frameworks */,
+				89F3FDC90047CE13790DD1CA /* [CP] Embed Pods Frameworks */,
+				5427EB7E328598FF36A95882 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -544,6 +571,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5427EB7E328598FF36A95882 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartSwiftDemo/Pods-SciChartSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F3FDC90047CE13790DD1CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartSwiftDemo/Pods-SciChartSwiftDemo-frameworks.sh",
+				"${PODS_ROOT}/SciChart/SciChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SciChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartSwiftDemo/Pods-SciChartSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94DCCF18F70894E76AD8A2A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SciChartSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84B6E7971CFC4CDC0094B072 /* Sources */ = {
@@ -708,6 +789,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -749,6 +831,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -756,6 +839,7 @@
 		};
 		84B6E7AE1CFC4CDC0094B072 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCCA8C6B3B644B899C94BDF /* Pods-SciChartSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4RZQG425FX;
@@ -780,13 +864,14 @@
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VALID_ARCHS = "arm64 armv7 x86_64 armv7s";
 			};
 			name = Debug;
 		};
 		84B6E7AF1CFC4CDC0094B072 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B693DF65276E7A8D1F6AFD /* Pods-SciChartSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4RZQG425FX;
@@ -810,7 +895,7 @@
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VALID_ARCHS = "arm64 armv7 x86_64 armv7s";
 			};
 			name = Release;

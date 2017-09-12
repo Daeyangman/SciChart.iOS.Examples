@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EC622BEB1DEC3854D3D29D3 /* Pods_SciChartShowcaseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D1FE0AE06AC4E2C9DFC7D1 /* Pods_SciChartShowcaseDemo.framework */; };
 		8418260F1E63473A00363830 /* ECGFadeOutPaletteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418260E1E63473A00363830 /* ECGFadeOutPaletteProvider.swift */; };
 		841826161E634CEE00363830 /* SPO2ChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841826151E634CEE00363830 /* SPO2ChartController.swift */; };
 		841826181E6362E700363830 /* BloodPreasureChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841826171E6362E700363830 /* BloodPreasureChartController.swift */; };
 		8418261A1E6364EF00363830 /* BloodVolumeChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841826191E6364EF00363830 /* BloodVolumeChartController.swift */; };
 		84330D3E1E67076C00C92282 /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF030B1E5DFD5200723C24 /* ExampleTableViewCell.swift */; };
 		845265251E64AA040087D387 /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845265241E64AA040087D387 /* HeartRateView.swift */; };
-		84765E041E767C8200810FD8 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		84765E051E767C8200810FD8 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84765E041E767C8200810FD8 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		84765E051E767C8200810FD8 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		847C2C4A1E65FF650019B4E5 /* SPO2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C2C491E65FF650019B4E5 /* SPO2View.swift */; };
 		847C2C4C1E6603E50019B4E5 /* SPO2PanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C2C4B1E6603E50019B4E5 /* SPO2PanelController.swift */; };
 		8480830B1E65ACC300543278 /* HeartRateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480830A1E65ACC300543278 /* HeartRateController.swift */; };
@@ -81,7 +82,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				84765E051E767C8200810FD8 /* BuildFile in Embed Frameworks */,
+				84765E051E767C8200810FD8 /* (null) in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,6 +90,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		032D43D08431263897D93C59 /* Pods-SciChartShowcaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartShowcaseDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartShowcaseDemo/Pods-SciChartShowcaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		44D1FE0AE06AC4E2C9DFC7D1 /* Pods_SciChartShowcaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SciChartShowcaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BF9A1906697B1B14E88B97 /* Pods-SciChartShowcaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartShowcaseDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartShowcaseDemo/Pods-SciChartShowcaseDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8418260E1E63473A00363830 /* ECGFadeOutPaletteProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECGFadeOutPaletteProvider.swift; sourceTree = "<group>"; };
 		841826151E634CEE00363830 /* SPO2ChartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPO2ChartController.swift; sourceTree = "<group>"; };
 		841826171E6362E700363830 /* BloodPreasureChartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodPreasureChartController.swift; sourceTree = "<group>"; };
@@ -165,17 +169,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				8489E4481E69C78B00E8BD8B /* OpenGLES.framework in Frameworks */,
-				84765E041E767C8200810FD8 /* BuildFile in Frameworks */,
+				84765E041E767C8200810FD8 /* (null) in Frameworks */,
+				3EC622BEB1DEC3854D3D29D3 /* Pods_SciChartShowcaseDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F84B4B94ECF256C4C611644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				032D43D08431263897D93C59 /* Pods-SciChartShowcaseDemo.debug.xcconfig */,
+				58BF9A1906697B1B14E88B97 /* Pods-SciChartShowcaseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8489E4411E69C78B00E8BD8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				8489E4471E69C78B00E8BD8B /* OpenGLES.framework */,
+				44D1FE0AE06AC4E2C9DFC7D1 /* Pods_SciChartShowcaseDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -315,6 +330,7 @@
 				84EB5AC51E5DCD1A00516F07 /* SciChartShowcaseDemo */,
 				84EB5AC41E5DCD1A00516F07 /* Products */,
 				8489E4411E69C78B00E8BD8B /* Frameworks */,
+				6F84B4B94ECF256C4C611644 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -485,10 +501,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84EB5AD51E5DCD1A00516F07 /* Build configuration list for PBXNativeTarget "SciChartShowcaseDemo" */;
 			buildPhases = (
+				8A5D70BD1BD6FC1796476D0A /* [CP] Check Pods Manifest.lock */,
 				84EB5ABF1E5DCD1A00516F07 /* Sources */,
 				84EB5AC01E5DCD1A00516F07 /* Frameworks */,
 				84EB5AC11E5DCD1A00516F07 /* Resources */,
 				84A1E44C1E5F2490006AE2AE /* Embed Frameworks */,
+				78C7F1AAA9FD4FD1FE303439 /* [CP] Embed Pods Frameworks */,
+				942ED57985AE7EE0A39728EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -556,6 +575,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78C7F1AAA9FD4FD1FE303439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartShowcaseDemo/Pods-SciChartShowcaseDemo-frameworks.sh",
+				"${PODS_ROOT}/SciChart/SciChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SciChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartShowcaseDemo/Pods-SciChartShowcaseDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5D70BD1BD6FC1796476D0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SciChartShowcaseDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942ED57985AE7EE0A39728EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartShowcaseDemo/Pods-SciChartShowcaseDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84EB5ABF1E5DCD1A00516F07 /* Sources */ = {
@@ -676,6 +749,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -718,6 +792,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -725,6 +800,7 @@
 		};
 		84EB5AD61E5DCD1A00516F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032D43D08431263897D93C59 /* Pods-SciChartShowcaseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -742,13 +818,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "SciChartShowcaseDemo/DataManager/SciChartShowcaseDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		84EB5AD71E5DCD1A00516F07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BF9A1906697B1B14E88B97 /* Pods-SciChartShowcaseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -764,7 +841,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "SciChartShowcaseDemo/DataManager/SciChartShowcaseDemo-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

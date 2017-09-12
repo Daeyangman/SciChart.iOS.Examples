@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1230BAEB43F5D72DF693AF8B /* Pods_SciChartDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F92AC10ADC748BD5214513 /* Pods_SciChartDemo.framework */; };
 		8407A68F1D089303009A8ED5 /* UIAlertController+SCDAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407A68E1D089303009A8ED5 /* UIAlertController+SCDAdditional.m */; };
 		8407A6941D089B52009A8ED5 /* SCDLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8407A6931D089B52009A8ED5 /* SCDLoadingView.xib */; };
 		8407A6971D089BC3009A8ED5 /* UIViewController+SCDLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407A6961D089BC3009A8ED5 /* UIViewController+SCDLoading.m */; };
@@ -91,6 +92,7 @@
 		84F4A1151CDA23EB001AA14C /* SideBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4A1141CDA23EB001AA14C /* SideBarView.m */; };
 		84F832441D3FDA8C00187B89 /* EURUSD_Daily.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84F832431D3FDA8C00187B89 /* EURUSD_Daily.txt */; };
 		84F988DE1D6ADD8400D5DF09 /* PalettedChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F988DD1D6ADD8400D5DF09 /* PalettedChartView.m */; };
+		9C3399EF95E7E6D09D99D4C4 /* Pods_SciChartDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F983ECD3A0ED89EF4DFD1E75 /* Pods_SciChartDemoTests.framework */; };
 		A302C2071EB247DE0071C9E0 /* ExampleListDataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = A302C2051EB247DE0071C9E0 /* ExampleListDataSource.plist */; };
 		A302C2081EB247DE0071C9E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A302C2061EB247DE0071C9E0 /* Images.xcassets */; };
 		A329DA951E4CA76C005035CE /* DashedLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A329DA941E4CA76C005035CE /* DashedLineChartView.m */; };
@@ -220,6 +222,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2BF012BD3B6077CAEE42150B /* Pods-SciChartDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartDemo/Pods-SciChartDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		62513026431876B68C843FFD /* Pods-SciChartDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartDemo/Pods-SciChartDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8407A68D1D089303009A8ED5 /* UIAlertController+SCDAdditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+SCDAdditional.h"; sourceTree = "<group>"; };
 		8407A68E1D089303009A8ED5 /* UIAlertController+SCDAdditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+SCDAdditional.m"; sourceTree = "<group>"; };
 		8407A6931D089B52009A8ED5 /* SCDLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCDLoadingView.xib; sourceTree = "<group>"; };
@@ -378,6 +382,7 @@
 		84F832431D3FDA8C00187B89 /* EURUSD_Daily.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EURUSD_Daily.txt; sourceTree = "<group>"; };
 		84F988DC1D6ADD7000D5DF09 /* PalettedChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalettedChartView.h; sourceTree = "<group>"; };
 		84F988DD1D6ADD8400D5DF09 /* PalettedChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalettedChartView.m; sourceTree = "<group>"; };
+		95F92AC10ADC748BD5214513 /* Pods_SciChartDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SciChartDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A302C2051EB247DE0071C9E0 /* ExampleListDataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ExampleListDataSource.plist; path = ../../CommonResources/ExampleListDataSource.plist; sourceTree = "<group>"; };
 		A302C2061EB247DE0071C9E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../CommonResources/Images.xcassets; sourceTree = "<group>"; };
 		A329DA931E4CA76C005035CE /* DashedLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashedLineChartView.h; sourceTree = "<group>"; };
@@ -438,6 +443,9 @@
 		A3EC699B1CFAF1F600F34ADC /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		A3EC69DB1CFAF2A300F34ADC /* ShareChartExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ShareChartExample; sourceTree = "<group>"; };
 		A3EC69DE1CFAF66000F34ADC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B79AA28DF6C2BF6E81F2B9F8 /* Pods-SciChartDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartDemoTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartDemoTests/Pods-SciChartDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD1B2B009C106400CB7DDE04 /* Pods-SciChartDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartDemoTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartDemoTests/Pods-SciChartDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F983ECD3A0ED89EF4DFD1E75 /* Pods_SciChartDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SciChartDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF15B18C1CE4C3AA000E190E /* AnnotationsChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnnotationsChartView.h; path = SciChartDemo/ExampleViews/AnnotationsChartView.h; sourceTree = SOURCE_ROOT; };
 		FF15B18D1CE4C3AA000E190E /* AnnotationsChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnnotationsChartView.m; path = SciChartDemo/ExampleViews/AnnotationsChartView.m; sourceTree = SOURCE_ROOT; };
 		FF15B18E1CE4C3AA000E190E /* BandChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandChartView.h; path = SciChartDemo/ExampleViews/BandChartView.h; sourceTree = SOURCE_ROOT; };
@@ -542,6 +550,7 @@
 				FF490C7B1EA75F8A00304C07 /* Accelerate.framework in Frameworks */,
 				A3EC69DF1CFAF66000F34ADC /* libz.tbd in Frameworks */,
 				8424B29B1B7BAF0D007FF0A5 /* OpenGLES.framework in Frameworks */,
+				1230BAEB43F5D72DF693AF8B /* Pods_SciChartDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +558,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3399EF95E7E6D09D99D4C4 /* Pods_SciChartDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +572,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312E3E5E192E77B465885BF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BF012BD3B6077CAEE42150B /* Pods-SciChartDemo.debug.xcconfig */,
+				62513026431876B68C843FFD /* Pods-SciChartDemo.release.xcconfig */,
+				DD1B2B009C106400CB7DDE04 /* Pods-SciChartDemoTests.debug.xcconfig */,
+				B79AA28DF6C2BF6E81F2B9F8 /* Pods-SciChartDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		840C71CC1CBE6AD7000B9483 /* ChartViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -630,6 +651,7 @@
 				FF75E3511E818F420067D6F4 /* SciChartDemoUITests */,
 				8421F55B1B4ED12F00173304 /* Products */,
 				FF490C791EA75F8900304C07 /* Frameworks */,
+				312E3E5E192E77B465885BF3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -991,6 +1013,8 @@
 			isa = PBXGroup;
 			children = (
 				FF490C7A1EA75F8A00304C07 /* Accelerate.framework */,
+				95F92AC10ADC748BD5214513 /* Pods_SciChartDemo.framework */,
+				F983ECD3A0ED89EF4DFD1E75 /* Pods_SciChartDemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1305,6 +1329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8421F57D1B4ED12F00173304 /* Build configuration list for PBXNativeTarget "SciChartDemo" */;
 			buildPhases = (
+				15F1ACFF7D04970DE3E8E9C8 /* [CP] Check Pods Manifest.lock */,
 				8421F5561B4ED12F00173304 /* Sources */,
 				8421F5571B4ED12F00173304 /* Frameworks */,
 				8421F5581B4ED12F00173304 /* Resources */,
@@ -1312,6 +1337,8 @@
 				A3EC69DD1CFAF2CE00F34ADC /* ShellScript */,
 				8406F7D31D22BC06001E4D33 /* Embed Frameworks */,
 				84F4C8501E54B55F001A64DA /* ShellScript */,
+				97E6D97DAA37BE7407ED42E3 /* [CP] Embed Pods Frameworks */,
+				2A0C837238F46D276541B928 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1326,9 +1353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8421F5801B4ED12F00173304 /* Build configuration list for PBXNativeTarget "SciChartDemoTests" */;
 			buildPhases = (
+				C09280F8ABC8C3F3C2AC670A /* [CP] Check Pods Manifest.lock */,
 				8421F56F1B4ED12F00173304 /* Sources */,
 				8421F5701B4ED12F00173304 /* Frameworks */,
 				8421F5711B4ED12F00173304 /* Resources */,
+				42A9F15568B4DCD639C7E15A /* [CP] Embed Pods Frameworks */,
+				A412D56028606F39E7B50B8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1475,6 +1505,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		15F1ACFF7D04970DE3E8E9C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SciChartDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A0C837238F46D276541B928 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartDemo/Pods-SciChartDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42A9F15568B4DCD639C7E15A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartDemoTests/Pods-SciChartDemoTests-frameworks.sh",
+				"${PODS_ROOT}/SciChart/SciChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SciChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartDemoTests/Pods-SciChartDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		84F4C8501E54B55F001A64DA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1488,6 +1569,24 @@
 			shellPath = /bin/sh;
 			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone";
 		};
+		97E6D97DAA37BE7407ED42E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartDemo/Pods-SciChartDemo-frameworks.sh",
+				"${PODS_ROOT}/SciChart/SciChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SciChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartDemo/Pods-SciChartDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A3EC69DD1CFAF2CE00F34ADC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1500,6 +1599,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "SciChartObjCDemo=$SRCROOT/SciChartDemo/ExampleViews\n\nBUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\n\necho COPYING $SciChartObjCDemo TO $BUILD_APP_DIR\ncp -R \"$SciChartObjCDemo\" \"$BUILD_APP_DIR\"\n\necho COPYING $SciChartSwiftDemo TO $BUILD_APP_DIR\ncp -R \"$SciChartSwiftDemo\" \"$BUILD_APP_DIR\"\n\nif [ -d \"$SciChartFrameworkPath\" ]; then\n   echo COPYING $SciChartFrameworkPath TO $BUILD_APP_DIR\n   cp -R \"$SciChartFrameworkPath\" \"$BUILD_APP_DIR\"\nfi";
+		};
+		A412D56028606F39E7B50B8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SciChartDemoTests/Pods-SciChartDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09280F8ABC8C3F3C2AC670A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SciChartDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1780,6 +1912,7 @@
 		};
 		8421F57E1B4ED12F00173304 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF012BD3B6077CAEE42150B /* Pods-SciChartDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1815,6 +1948,7 @@
 		};
 		8421F57F1B4ED12F00173304 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62513026431876B68C843FFD /* Pods-SciChartDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1848,6 +1982,7 @@
 		};
 		8421F5811B4ED12F00173304 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1B2B009C106400CB7DDE04 /* Pods-SciChartDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1870,6 +2005,7 @@
 		};
 		8421F5821B4ED12F00173304 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79AA28DF6C2BF6E81F2B9F8 /* Pods-SciChartDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
