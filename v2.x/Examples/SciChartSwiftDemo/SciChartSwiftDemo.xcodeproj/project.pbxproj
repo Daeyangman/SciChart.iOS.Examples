@@ -93,6 +93,7 @@
 		A36FD77E1DD524A600E6179F /* SCSStackedColumnChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FD77D1DD524A600E6179F /* SCSStackedColumnChartView.swift */; };
 		A3B3CC761D8B2DD5009096EE /* SCSImpulseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3CC751D8B2DD5009096EE /* SCSImpulseChartView.swift */; };
 		B890B1C932175EE074E21012 /* Pods_SciChartSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42237E6BC8C1D6093E866C5B /* Pods_SciChartSwiftDemo.framework */; };
+		FAE1FD481F69BC8500473894 /* SCSStylingSciChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1FD471F69BC8400473894 /* SCSStylingSciChartView.swift */; };
 		FF0319841D3D057E005CD7F2 /* SCSDigitalLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0319831D3D057E005CD7F2 /* SCSDigitalLineChartView.swift */; };
 		FF0319861D3D0F41005CD7F2 /* SCSInterpolationTurnOnOff.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0319851D3D0F41005CD7F2 /* SCSInterpolationTurnOnOff.xib */; };
 		FF0319881D3D0F99005CD7F2 /* SCSInterpolationTurnOnOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0319871D3D0F99005CD7F2 /* SCSInterpolationTurnOnOff.swift */; };
@@ -224,6 +225,7 @@
 		A36FD77D1DD524A600E6179F /* SCSStackedColumnChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSStackedColumnChartView.swift; sourceTree = "<group>"; };
 		A3B3CC751D8B2DD5009096EE /* SCSImpulseChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSImpulseChartView.swift; sourceTree = "<group>"; };
 		A9B693DF65276E7A8D1F6AFD /* Pods-SciChartSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartSwiftDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartSwiftDemo/Pods-SciChartSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FAE1FD471F69BC8400473894 /* SCSStylingSciChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSStylingSciChartView.swift; sourceTree = "<group>"; };
 		FF0319831D3D057E005CD7F2 /* SCSDigitalLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSDigitalLineChartView.swift; sourceTree = "<group>"; };
 		FF0319851D3D0F41005CD7F2 /* SCSInterpolationTurnOnOff.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCSInterpolationTurnOnOff.xib; sourceTree = "<group>"; };
 		FF0319871D3D0F99005CD7F2 /* SCSInterpolationTurnOnOff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSInterpolationTurnOnOff.swift; sourceTree = "<group>"; };
@@ -383,6 +385,7 @@
 		84B6E7F31CFDF37C0094B072 /* ChartViews */ = {
 			isa = PBXGroup;
 			children = (
+				FAE1FD471F69BC8400473894 /* SCSStylingSciChartView.swift */,
 				84A4E2BC1F0CFDB500DF93A4 /* SCSAddRemoveSeries.swift */,
 				847D821A1F0C103900DDDF70 /* SCSRealTimeGhostedTracesChartView.swift */,
 				847D821C1F0C104E00DDDF70 /* SCSAnnotationsChartView.swift */,
@@ -699,6 +702,7 @@
 				84221C071D0557DB003DD07A /* SCSBandChartView.swift in Sources */,
 				8466178D1EA7A38B003E867A /* RandomUtil.swift in Sources */,
 				FFE8D4411D3E9E8C00D05F8C /* SCSRealtimeTickingStockChartView.swift in Sources */,
+				FAE1FD481F69BC8500473894 /* SCSStylingSciChartView.swift in Sources */,
 				A3B3CC761D8B2DD5009096EE /* SCSImpulseChartView.swift in Sources */,
 				FF45D7E41EB78EED00F84866 /* SCSSyncMultiChartView.swift in Sources */,
 				84B6E7BE1CFC591C0094B072 /* SCSConstants.swift in Sources */,

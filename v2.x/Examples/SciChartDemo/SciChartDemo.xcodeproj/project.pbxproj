@@ -122,6 +122,7 @@
 		A3EC69AA1CFAF1F600F34ADC /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EC699A1CFAF1F600F34ADC /* SSZipArchive.m */; };
 		A3EC69DC1CFAF2A300F34ADC /* ShareChartExample in Resources */ = {isa = PBXBuildFile; fileRef = A3EC69DB1CFAF2A300F34ADC /* ShareChartExample */; };
 		A3EC69DF1CFAF66000F34ADC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EC69DE1CFAF66000F34ADC /* libz.tbd */; };
+		FAE1FD4B1F69BCF700473894 /* StylingSciChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1FD491F69BCF600473894 /* StylingSciChartView.m */; };
 		FF15B1AB1CE4C3AA000E190E /* AnnotationsChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF15B18D1CE4C3AA000E190E /* AnnotationsChartView.m */; };
 		FF15B1AC1CE4C3AA000E190E /* BandChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF15B18F1CE4C3AA000E190E /* BandChartView.m */; };
 		FF15B1AD1CE4C3AA000E190E /* BubbleChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF15B1911CE4C3AA000E190E /* BubbleChartView.m */; };
@@ -446,6 +447,8 @@
 		B79AA28DF6C2BF6E81F2B9F8 /* Pods-SciChartDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartDemoTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartDemoTests/Pods-SciChartDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		DD1B2B009C106400CB7DDE04 /* Pods-SciChartDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChartDemoTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SciChartDemoTests/Pods-SciChartDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F983ECD3A0ED89EF4DFD1E75 /* Pods_SciChartDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SciChartDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE1FD491F69BCF600473894 /* StylingSciChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StylingSciChartView.m; sourceTree = "<group>"; };
+		FAE1FD4A1F69BCF700473894 /* StylingSciChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StylingSciChartView.h; sourceTree = "<group>"; };
 		FF15B18C1CE4C3AA000E190E /* AnnotationsChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnnotationsChartView.h; path = SciChartDemo/ExampleViews/AnnotationsChartView.h; sourceTree = SOURCE_ROOT; };
 		FF15B18D1CE4C3AA000E190E /* AnnotationsChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnnotationsChartView.m; path = SciChartDemo/ExampleViews/AnnotationsChartView.m; sourceTree = SOURCE_ROOT; };
 		FF15B18E1CE4C3AA000E190E /* BandChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandChartView.h; path = SciChartDemo/ExampleViews/BandChartView.h; sourceTree = SOURCE_ROOT; };
@@ -792,6 +795,8 @@
 		84A5A75D1EBB8CA500325342 /* Create Custom Theme */ = {
 			isa = PBXGroup;
 			children = (
+				FAE1FD4A1F69BCF700473894 /* StylingSciChartView.h */,
+				FAE1FD491F69BCF600473894 /* StylingSciChartView.m */,
 				A39D17E51E02B0A9009115BE /* ThemeCustomChartView.h */,
 				A39D17E61E02B0A9009115BE /* ThemeCustomChartView.m */,
 			);
@@ -1726,6 +1731,7 @@
 				845242231C99B52D0092872B /* SCDChartExamplesController.m in Sources */,
 				843D759D1D1427050058CB11 /* BrownianMotionGenerator.m in Sources */,
 				84CA6F381D5C759600B53590 /* NxMSeriesSpeedTestSciChart.m in Sources */,
+				FAE1FD4B1F69BCF700473894 /* StylingSciChartView.m in Sources */,
 				84CB73A51D2A577F00933A9D /* SCDExampleTableHeader.m in Sources */,
 				845242251C99B52D0092872B /* StartViewController.m in Sources */,
 				A3EC69A11CFAF1F600F34ADC /* hmac.c in Sources */,
